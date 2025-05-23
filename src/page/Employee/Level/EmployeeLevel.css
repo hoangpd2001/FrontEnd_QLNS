@@ -1,0 +1,17 @@
+
+td{
+    border:none;
+}
+#react-confirm-alert{
+
+        position: fixed;
+            z-index: 1000 !important;
+}
+#react-confirm-alert button{
+
+    background-color: rgb(36, 144, 239);
+}
+/* .insert{
+    z-index: 10;
+    position: relative;
+} */

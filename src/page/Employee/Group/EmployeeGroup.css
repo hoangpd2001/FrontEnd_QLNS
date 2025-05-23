@@ -1,0 +1,57 @@
+
+.group-table-contain{
+    padding-top: 20px;
+    display:grid ;
+    flex-direction: column; 
+}
+.branch-table-filter{
+    margin-top: 20px;
+    height:600px;
+    overflow-y: auto;
+}
+.group-format{
+    display: grid;
+    grid-template-columns:0.5fr 0.5fr 1fr 0.25fr;
+    align-items: center;
+    gap:10px;
+    padding:12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.group-format-title{
+    display: grid;
+    grid-template-columns:  0.5fr 0.5fr 1fr 0.25fr;
+    align-items: center;
+    gap:10px;
+    padding:12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+.branch-format:hover{
+    background-color: rgb(244,245,246);
+}
+td{
+    border:none;
+    text-align: center;
+}
+.insert-group-employee{
+    background: white; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    width: 1000px; 
+    
+}
+.insert-insert-group-employee{
+    font-size: 18px;
+
+    margin-bottom: 15px;
+}
+.title-insert-group-employee{
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border:none; 
+    border-radius: 4px;
+}

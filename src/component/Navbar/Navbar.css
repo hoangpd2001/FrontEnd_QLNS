@@ -1,0 +1,114 @@
+#mainnav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.5); 
+    height: 6.3vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0px 12.5vw;
+
+    /* background-color: rgb(249, 250, 250);  */
+    background-color: white;
+    height:60px;
+    margin: auto;
+
+}
+.navbar-left{
+    display: flex;
+    gap:10px;
+
+}
+
+.navbar-left-logo{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+.navbar-right{
+    gap:25px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    
+}
+.navbar-right-search{
+    background:rgb(244,245,246);
+    text-align: center;
+    /* gap:10px; */
+    /* border-radius: 10px; */
+    display: flex;
+        /* Sử dụng Flexbox */
+        justify-content: flex-start;
+        /* Căn chỉnh theo chiều ngang */
+        align-items: flex-start;
+        /* Căn chỉnh theo chiều dọc */
+        width: 300px;
+            border: none;
+            height: 35px;
+            border-radius: 10px;
+
+}
+.navbar-right-search div{
+    height: 100%;
+    margin: auto;
+    padding-top: 5px;
+}
+.navbar-right-search span {
+ 
+
+}
+.navbar-right-search button{
+   
+}
+.navbar-right-search span{
+    font-size: 14px;
+}
+.navbar-right hr{
+    width:1px;
+    height:30px;
+}
+.navbar-right-dot{
+    width:35px;
+    height:35px;
+    border-radius: 17.5px;
+    background-color: pink;
+    color:deeppink;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   display: flex;
+}
+.navbar-right-dropdown{
+    font-size: 14px;
+    align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+}
+.navbar-right-dropdown div{
+
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+.search-icon{
+    height:20px;
+}
+.bell-icon{
+    height:18px;
+}
+.log-in{
+    padding-left: 4px;
+    padding-top: 0px;
+}

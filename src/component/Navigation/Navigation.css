@@ -1,0 +1,27 @@
+.nav {
+ 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+nav div {
+    float: left;
+}
+
+.navbar-left-navigation{
+    
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
